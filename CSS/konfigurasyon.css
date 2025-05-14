@@ -60,7 +60,7 @@ div.info div{
 }
 
 .arkaplan{
-     background-image: url(IMG/Adobe Express - file.png);
+     background-image: url('../IMG/Adobe Express - file.png');
      background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
