@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+.container .baslik{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arac{
+  background-image: url("C:/Users/alper/Desktop/WEB/IMG/Adobe Express - file.png");
+  width: 75%;
+  margin:auto;
+}
+
+.arac img{
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    width:75%;
+  overflow:auto;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+    z-index:100;
+    top:0;
+    opacity: 0.9;
+  
+}
+
+.info p{
+  padding-left:15px;
+}
+
+.baslangicFiyat{
+  width: 75%;
+  overflow:auto;
+  margin: auto;
+  padding-top: 12px;
+  padding-left:15px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.9;
+    z-index:100;
+    position: sticky;
+    top:0;
+    font-style: italic;
+    font-size: medium;
+}
+
+div.info div{
+    float:left;
+    width:25%;
+    text-align: center;
+    padding:15px 20px;
+    padding-top:45px;
+    
+}
+
+.arkaplan{
+     background-image: url("C:/Users/alper/Desktop/WEB/IMG/Adobe Express - file.png");
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    
+}
+
+.renk{
+  
+  
+  position: relative;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+}
+
+.renk img{
+  
+  width: 75%;
+}
+
+.renk .txt{
+  position:absolute;
+  left:48%;
+  top:12%;
+}
+
+.renk .btns{
+  position: absolute;
+  top:80%;
+  left:40%;
+}
+
+.renk .btns button{
+
+  padding:20px 20px;
+  margin-left:35px;
+  border-radius: 24px;
+  border:none;
+}
+
+.renk .btns .b1:active{
+    
+  padding:26px 26px;
+  border-radius:30px;
+}
+
+.renk .btns .b2:active{
+    
+  padding:26px 26px;
+  border-radius:30px;
+ 
+}
+
+.renk .btns .b3:active{
+    
+  padding:26px 26px;
+  border-radius:24px;
+ 
+}
+
+.renk .btns .b4:active{
+    
+  padding:26px 26px;
+  border-radius:24px;
+ 
+}
+
+.renk .btns .fiyat1{
+  font-size: 9pt;
+  font-style: italic;
+  font-weight: 600;
+    margin-left:28px;
+}
+
+.icMekan{
+  width:75%;
+  margin:auto;
+  overflow:auto;
+
+}
+
+.icMekan img{
+ 
+  width:100%;
+  margin:auto;
+  position:relative;
+}
+
+.icMekan .icMekan1{
+  position:absolute;
+  top:85%;
+  left:45%;
+  color:white;
+}
+
+.icMekan .icMekan2{
+  position:absolute;
+  top:85%;
+  left:46%;
+  color:white;
+}
+
+
+.icMekan .buton{
+  margin-left:455px;
+  margin-top:14px;
+  margin-bottom:8px;
+  background-color: white;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius: 12px;
+}
+
+.icMekan .buton:hover{
+  background-color:black;
+  color:white;
+  border-radius: 16px;
+  
+}
+
+.icMekan .buton:active{
+  box-shadow: 0 2px grey;
+  transform: translateY(-3px);
+  background-color: red;
+}
+
+
+
+.metinler{
+
+  width: 75%;
+  margin:auto;
+  overflow:auto;
+  background-color: white;
+
+}
+
+.metinler .metin1{
+  padding:15px;
+  width:33.33%;
+  text-align:center;
+  color:black;
+  font-weight: 700;
+  font-size: 14pt;
+  float:left;
+  border:none;
+}
+
+.container2{
+  width: 75%;
+  margin: auto;
+  background-color: white;
+}
+
+.container2 img{
+  display: block;
+  margin: auto;
+  width: 50%;
+}
+
+
+
+
+
