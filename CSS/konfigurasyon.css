@@ -9,7 +9,7 @@
 }
 
 .arac{
-  background-image: url("C:/Users/alper/Desktop/WEB/IMG/Adobe Express - file.png");
+  background-image: url("IMG/Adobe Express - file.png");
   width: 75%;
   margin:auto;
 }
@@ -60,11 +60,11 @@ div.info div{
 }
 
 .arkaplan{
-     background-image: url("C:/Users/alper/Desktop/WEB/IMG/Adobe Express - file.png");
+     background-image: url("WEB/IMG/Adobe Express - file.png");
      background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    background-color: rgba(0,0,0, 0.4); 
     
 }
 
