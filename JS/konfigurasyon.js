@@ -10,7 +10,7 @@ var icBeyaz = 0;
 
 function kirmizi(){
    
-    document.getElementById("arabaRenk").src="/IMG/ChatGPT Image 11 May 2025 13_24_57.png"
+    document.getElementById("arabaRenk").src='IMG/ChatGPT Image 11 May 2025 13_24_57.png'
  
     
 
@@ -31,7 +31,7 @@ function kirmizi(){
 
 function yeşil(){
 
-    document.getElementById("arabaRenk").src="/IMG/ChatGPT Image 11 May 2025 13_28_49.png";
+    document.getElementById("arabaRenk").src='IMG/ChatGPT Image 11 May 2025 13_28_49.png';
 
 
     if(checkGreen == 0){
@@ -48,7 +48,7 @@ function yeşil(){
 
 function siyah(){
 
-    document.getElementById("arabaRenk").src="/IMG/ChatGPT Image 11 May 2025 13_34_58.png"
+    document.getElementById("arabaRenk").src='IMG/ChatGPT Image 11 May 2025 13_34_58.png'
     
     if(checkBlack == 0){
 
@@ -65,7 +65,7 @@ function siyah(){
 
 function mavi(){
 
-    document.getElementById("arabaRenk").src="/IMG/ChatGPT Image 11 May 2025 13_29_04.png"
+    document.getElementById("arabaRenk").src='IMG/ChatGPT Image 11 May 2025 13_29_04.png'
     
     if(checkBlue == 0){
 
