@@ -9,7 +9,7 @@
 }
 
 .arac{
-  background-image: url('https://github.com/webberdroid/tesla/blob/2b75d20e6f5f31dfa8ae61a5536d049921bf3d7c/IMG/ADOBE.PNG');
+  background-image: "url('https://github.com/webberdroid/tesla/blob/2b75d20e6f5f31dfa8ae61a5536d049921bf3d7c/IMG/ADOBE.PNG')";
   width: 75%;
   margin:auto;
 }
@@ -60,7 +60,7 @@ div.info div{
 }
 
 .arkaplan{
-     background-image: url('https://github.com/webberdroid/tesla/blob/2b75d20e6f5f31dfa8ae61a5536d049921bf3d7c/IMG/ADOBE.PNG');
+     background-image:"url('https://github.com/webberdroid/tesla/blob/2b75d20e6f5f31dfa8ae61a5536d049921bf3d7c/IMG/ADOBE.PNG')";
      background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
