@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <script src="JS/konfigurasyon.js"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="CSS/konfigurasyon.css">
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    
+        <img src="IMG/Ekran görüntüsü 2025-05-10 132101.png" class="baslik">
+    
+    </div>
+   <div class="arkaplan">
+    
+    
+    <div class="arac">
+
+        <img src="IMG/Adobe Express - file.png" >
+    </div>
+   
+    <div class="info">
+      <div class="info1">
+        <p style="font-size: 16pt;"><b>600 km</b></p>
+        <p style="font-style: italic;">Menzil</p>
+      </div>
+
+      <div class="info1" style="border-left:none;">
+        <p style="font-size: 16pt;"><b>2,1 sn</b></p>
+        <p style="font-style: italic;">0-100 km/s</p>
+      </div>
+
+      <div class="info1" style="border-left:none;">
+        <p style="font-size: 16pt;"><b>322 km/s</b></p>
+        <p style="font-style: italic;">Azami Hız</p>
+      </div>
+
+      <div class="info1" style="border-left:none;">
+        <p style="font-size: 16pt;"><b>1020 bg</b></p>
+        <p style="font-style: italic;">Motor Gücü</p>
+      </div>
+   </div>
+   <div class="baslangicFiyat">
+      <p>Başlangıç Fiyatı = <span id="startingPrice">2000000 TL</span></p>
+   </div>
+
+   
+   
+   
+   <div class="renk">
+      <div class="txt" style="font-size: 20pt;">RENK</div>
+      <img src="IMG/ChatGPT Image 11 May 2025 13_29_04.png" id="arabaRenk">
+      <div class="btns">
+      <button onclick="kirmizi()" style="background-color: red;" class="b1"></button>
+      <button onclick="yeşil()" style="background-color: rgb(12, 219, 12)" class="b2"></button>
+      <button onclick="siyah()" style="background-color: black;" class="b3"></button>
+      <button onclick="mavi()" style="background-color: blue;" class="b4"></button><br>
+      <span class="fiyat1">+150.000</span><span class="fiyat1">+180.000</span>
+      <span class="fiyat1" >+130.000</span><span class="fiyat1">+0.00</span>
+      </div>
+      
+  </div>
+
+  <div style="background-color:white;width:75%;margin:auto;text-align: center;padding-bottom:20px;font-size:20pt;border-top:solid;padding-top:25px">İÇ MEKAN</div>
+
+  <div class="icMekan">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+ 
+ 
+
+  
+  <div class="carousel-inner">
+    <div class="item active" style="background-color:white">
+      <img src="IMG/Ekran görüntüsü 2025-05-13 215540.png" style="height:550px"><button class="buton" onclick="icMekanBeyaz()">Siyah beyaz iç mekan seç (+100.000 TL)</button>
+  
+    </div>
+
+    <div class="item" style="background-color: white;">
+      <img src="IMG/Ekran görüntüsü 2025-05-13 215509.png" style="height:550px" ><button class="buton" onclick="icMekanSiyah()">Siyah iç mekan seç (Fiyat farkı yok)</button>
+      
+    </div>
+
+    
+  </div>
+
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+      
+  </div>
+
+    <div class="container2">
+       
+        <img src="IMG/Ekran görüntüsü 2025-05-10 132101.png" class="baslik">
+
+    </div>
+
+  <div class="metinler">
+ 
+   <div class="metin1" id="mt1"  >
+    <marquee direction="up" scrollamount="2.6">
+      <span>Sola sağa yatırılabilen 17" dokunmatik ekran;oyun, film</span>
+      <span>ve daha fazlası için 2200 x 1300 çözünürlük,gerçek renkler</span>
+      <span>ve olağan üstü yanıt süresi sunar.</span>
+      <span>Çoklu cihaz Bluetooth ile anında bağlanın veya k3ablosuz ve</span>
+      <span>36 watt USB-C şarj ile cihazları hızlı şarj edin.</span>
+    </marquee>
+   </div>
+
+   <div class="metin1" id="mt2" >
+    <marquee direction="up" scrollamount="2.6">
+      <span>Aktif Yol Gürültüsü azaltma özelliğne sahip 22 hoparlörlü</span>
+      <span>, 960 wattlık ses sistemi, sürükleyici dinleme ve stüdyo</span>
+      <span> kalitesinde ses kalitesi sunar.İçeri girin ve kapıyı kapatın</span>
+      <span> ve özel tasarım akustik camıyla kendi özel ses stüdyonuza</span>
+      <span> dönüşen kabinde dinleyin.</span>
+      </marquee>
+   </div>
+
+   <div class="metin1" id="mt3" >
+     <marquee direction="up" scrollamount="2.6">
+        <span>Full Self Driving ile daha fazla aktif rehberlik ve </span>
+        <span>aktif gözetiminiz altında destekli sürüş sağlamak için</span>
+        <span> ön kameralarla birlikte çalışacak şekilde tasarlandı.</span>
+        <span>Önden Çarpışma Uyarısı, Aktif Acil Frenleme gibi önlemler bulunur.</span>
+      </marquee>  
+   </div>
+
+  </div>
+
+  <div class="baslik2"><span>ARACINIZ</span></div>
+  
+  <div class="sonHal">
+     
+    
+     <img src="IMG/ChatGPT Image 11 May 2025 13_29_04.png" id="sonRenk" onmouseover="belirt()" onmouseleave="belirtme()">
+    
+     <img src ="IMG/Ekran görüntüsü 2025-05-13 215509.png" id="sonIcMekan" onmouseover="belirt2()" onmouseleave="belirtme2()" style="height:367px;width: 588.7px;">
+
+  </div>
+     
+    <div class="container" style="background-color: white;width:75%;">
+  <h2 style="text-align: center;background-color: white;">TESLA MODEL S</h2>
+  
+  <table class="table" style="text-align: center;">
+    <thead>
+      <tr>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>MODEL</b></td>
+        <td>MODEL S</td>
+        <td>2,000,000 TL</td>
+      </tr>      
+      <tr class="warning">
+        <td><b>RENK</b></td>
+        <td id="tabloRenk">RENK SEÇMEDİNİZ</td>
+        <td id="tabloRenkFiyat">+0 TL</td>
+      </tr>
+      <tr>
+        <td><b>İÇ MEKAN</b></td>
+        <td id="tabloIcMekan">İÇ MEKAN SEÇMEDİNİZ</td>
+        <td id="tabloIcMekanFiyat">+0 TL</td>
+      </tr>
+      
+      <tr class="warning">
+        <td></td>
+        <td></td>
+        <td>Tutar = <span id="tabloFiyat" style="font-weight: 700;">2,000,000 TL</span></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+ <div class="iletisim">
+  <p style="text-align: center;font-weight: 700;font-size: 18pt;">İLETİŞİM BİLGİLERİ</p>
+    <form action="/action_page.php" >
+      <div class="iletisim2">
+       <label for="fname" style="margin-left:25px;">İsim:</label>
+       <input type="text" id="fname" name="fname"><br><br>
+       <label for="lname">Soyisim:</label>
+       <input type="text" id="lname" name="lname"><br><br>
+       <label for="mail">E-posta:</label>
+       <input type="email" id="mail" name="mail" placeholder="@gmail.com"><br><br>
+       <label for="phone" style="margin-left:10px;">Tel No:</label>
+       <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+       <label>Cinsiyet:</label>&nbsp;&nbsp;&nbsp;
+       <input type="radio" id="kadın" name="cinsiyet" value="Kadın">
+       <label for="kadın">Kadın</label>&nbsp;&nbsp;
+       <input type="radio" id="erkek" name="cinsiyet" value="Erkek">
+       <label for="erkek">Erkek</label><br><br>
+       <label for="dogum">Doğum Tarihi</label>&nbsp;&nbsp;
+       <input type="date" id="dogum" name="birthday"><br><br>
+       <label for="soru">İlk arabanız mı?</label>&nbsp;&nbsp;
+
+      <select name="soru" id="cars">
+       <option value="evet">Evet</option>
+       <option value="hayır">Hayır</option>
+      </select>
+       <br><br>
+      <label for="yas">Ehliyet yaşı:</label>&nbsp;&nbsp;<span id="ehliyet">5</span>
+      <input type="range" id="yas" name="yas" min="1" max="10"  style="width:20%;" oninput="ehliyetYas()">
+
+
+       
+   </form>
+
+ </div>
+  
+
+  
+
+  
+
+  
+
+  </div>
+
+
+
+</body>
+
+
+
+
+</html>
